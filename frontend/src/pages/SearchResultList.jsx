@@ -13,7 +13,7 @@ const SearchResultList = () => {
 
    return (
       <>
-         <CommonSection title={'Tour Search Result'} />
+         <CommonSection title={'Nearby Garden Search Result'} />
          <section>
             <Container>
                <Row>

@@ -8,18 +8,18 @@ import customizationImg from '../assets/images/customization.png'
 const servicesData = [
    {
       imgUrl: weatherImg,
-      title: `Calculate Weather`,
-      desc: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.`,
+      title: `Seasonal Maintenance`,
+      desc: `Keep your garden healthy and vibrant year-round with customized maintenance plans for each season.`,
    },
    {
       imgUrl: guideImg,
-      title: `Best Tour Guide`,
-      desc: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.`,
+      title: `Community Building`,
+      desc: `Build strong connections within your community by hosting garden events and engaging with neighbors.`,
    },
    {
       imgUrl: customizationImg,
-      title: 'Customization',
-      desc: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.`,
+      title: 'Volunteer Management',
+      desc: `Easily manage your volunteers with tools for scheduling, communication, and task assignments.`,
    },
 ]
 

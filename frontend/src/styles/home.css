@@ -1,15 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 :root {
    --primary-color     : #389583;
    --secondary-color   : #5cdb94;
    --heading-color     : #0b2727;
    --text-color        : #6e7074;
-   --font-name         : "Montserrat", sans-serif;
-   --subtitle-font-name: "Island Moments", cursive;
+   --font-name         : 'Poppins', sans-serif;
+   --subtitle-font-name: 'Poppins', sans-serif;
 }
 
 .hero__subtitle img {
    width : 2.3rem;
    height: 2.3rem;
+   padding-bottom: 5px;
+}
+
+.section__subtitle {
+   color: #fff;
+}
+
+.section__subtitle img{
+   padding-bottom: 5px;
 }
 
 .hero__content h1 {
@@ -32,10 +43,10 @@
 
 .hero__img-box img,
 .hero__img-box video {
-   width        : 100%;
-   height       : 350px;
-   border-radius: 20px;
-   border       : 1px solid var(--secondary-color);
+   width        : 600px;
+   height       : 367px;
+   border-radius: 25px;
+   border       : 4px solid var(--secondary-color);
    object-fit   : cover;
 }
 
@@ -50,7 +61,7 @@
 .services__subtitle {
    font-size  : 2rem;
    font-weight: 500;
-   color      : #ee6e6e;
+   color      : #389583;
    font-family: var(--subtitle-font-name);
 }
 

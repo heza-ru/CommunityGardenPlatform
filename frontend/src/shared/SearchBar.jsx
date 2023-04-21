@@ -35,7 +35,7 @@ const SearchBar = () => {
                <span><i class='ri-map-pin-line'></i></span>
                <div>
                   <h6>Location</h6>
-                  <input type="text" placeholder='Where are you going?' ref={locationRef} />
+                  <input type="text" placeholder='Where are you located?' ref={locationRef} />
                </div>
             </FormGroup>
             <FormGroup className='d-flex gap-3 form__group form__group-fast'>
@@ -48,7 +48,7 @@ const SearchBar = () => {
             <FormGroup className='d-flex gap-3 form__group form__group-last'>
                <span><i class='ri-group-line'></i></span>
                <div>
-                  <h6>Max People</h6>
+                  <h6>People Collaborating</h6>
                   <input type="number" placeholder='0' ref={maxGroupSizeRef} />
                </div>
             </FormGroup>

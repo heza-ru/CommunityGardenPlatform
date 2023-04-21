@@ -1,7 +1,7 @@
 .service__item {
    padding      : 1rem;
-   border-bottom: 1px solid #faa83586;
-   border-right : 1px solid #faa83586;
+   border-bottom: 3px solid #389583;
+   border-right : 3px solid #5cdb94;
    border-radius: 0.5rem;
 }
 
