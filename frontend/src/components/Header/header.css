@@ -4,7 +4,7 @@
    --heading-color     : #0b2727;
    --text-color        : #6e7074;
    --font-name         : "Montserrat", sans-serif;
-   --subtitle-font-name: "Island Moments", cursive;
+   --subtitle-font-name: "Montserrat", sans-serif;
 }
 
 .header {
@@ -26,6 +26,7 @@
    color          : var(--heading-color);
    font-weight    : 500;
    font-size      : 1.5rem;
+   padding        : 0 1rem;
 }
 
 .nav__item a:hover {
