@@ -112,8 +112,9 @@
    color     : var(--text-color);
 }
 
-.experience__img img {
-   width: 90%;
+.experience__img video {
+   width        : 600px;
+   height       : 367px;
 }
 
 /* GALLERY SECTION */

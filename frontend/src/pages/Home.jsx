@@ -5,7 +5,7 @@ import heroImg from '../assets/images/hero-img03.gif'
 import heroImg02 from '../assets/images/hero-img02.jpg'
 import heroVideo from '../assets/images/hero-video.mp4'
 import worldImg from '../assets/images/world.png'
-import experienceImg from '../assets/images/experience.png'
+import experienceImg from '../assets/images/experience.mp4'
 
 import Subtitle from './../shared/subtitle'
 import SearchBar from './../shared/SearchBar'
@@ -91,21 +91,21 @@ const Home = () => {
                   <div className="counter__wrapper d-flex align-items-center gap-5">
                      <div className="counter__box">
                         <span>12k+</span>
-                        <h6>Successful trip</h6>
+                        <h6>Communities</h6>
                      </div>
                      <div className="counter__box">
                         <span>2k+</span>
                         <h6>Regular clients</h6>
                      </div>
                      <div className="counter__box">
-                        <span>15</span>
-                        <h6>Year experience</h6>
+                        <span>3</span>
+                        <h6>Years</h6>
                      </div>
                   </div>
                </Col>
                <Col lg='6'>
                   <div className="experience__img">
-                     <img src={experienceImg} alt="" />
+                     <video src={experienceImg} alt="" autoPlay muted loop/>
                   </div>
                </Col>
             </Row>
@@ -119,7 +119,7 @@ const Home = () => {
             <Row>
                <Col lg='12'>
                   <Subtitle subtitle={'Gallery'} />
-                  <h2 className="gallery__title">Visit our customers tour gallery</h2>
+                  <h2 className="gallery__title">Visit our customers gallery</h2>
                </Col>
                <Col lg='12'>
                   <MasonryImagesGallery />

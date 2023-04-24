@@ -1,5 +1,5 @@
 .newsletter {
-   background: #cae5f4;
+   background: #caf4da;
    padding   : 0;
    margin-top: 3rem;
 }
@@ -46,7 +46,7 @@
 }
 
 .newsletter__img img {
-   width: 100%;
+   width: 60%;
 }
 
 /* =============== RESPONSIVE ================ */
